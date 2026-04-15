@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>William Rossetti — Trasforma la Tua Situazione Economica</title>
+<meta name="description" content="Non aspettare che qualcuno cambi la tua situazione. Fallo tu. Metodo concreto, risultati reali.">
+
+<!-- ─── Open Graph SEO ─── -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="William Rossetti — Trasforma la Tua Situazione Economica">
+<meta property="og:description" content="Un metodo concreto per generare entrate reali online, senza esperienza, senza guru. Solo risultati misurabili.">
+<meta property="og:image" content="<!-- URL immagine OG 1200x630 -->">
+<meta property="og:url" content="<!-- URL del sito -->">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="William Rossetti — Trasforma la Tua Situazione Economica">
+<meta name="twitter:description" content="Un metodo concreto per generare entrate reali online. Solo risultati misurabili.">
+<meta name="twitter:image" content="<!-- URL immagine Twitter -->">
+
+<!-- ─── Favicon placeholder ─── -->
+<link rel="icon" type="image/png" href="<!-- /favicon.png -->">
+<link rel="apple-touch-icon" href="<!-- /apple-touch-icon.png -->">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --black: #080808;
+    --white: #f5f4f0;
+    --gray-100: #1a1a1a;
+    --gray-200: #242424;
+    --gray-300: #333;
+    --gray-400: #555;
+    --gray-500: #888;
+    --gray-600: #aaa;
+    --accent: #4f6ef7;
+    --accent-dim: rgba(79,110,247,0.15);
+    --red: #ef4444;
+    --green: #22c55e;
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; font-size: 16px; }
+  body {
+    background: var(--black);
+    color: var(--white);
+    font-family: var(--font-body);
+    font-weight: 300;
+    line-height: 1.65;
+    overflow-x: hidden;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    padding: 0 2rem; height: 64px;
+    display: flex; align-items: center; justify-content: space-between;
+    background: rgba(8,8,8,0.85);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .nav-logo { font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; letter-spacing: -0.02em; color: var(--white); text-decoration: none; }
+  .nav-logo span { color: var(--accent); }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a { color: var(--gray-600); text-decoration: none; font-size: 0.82rem; font-weight: 400; letter-spacing: 0.06em; text-transform: uppercase; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--white); }
+  .nav-cta { background: var(--accent); color: #fff !important; padding: 0.45rem 1.2rem !important; border-radius: 4px !important; font-weight: 500 !important; transition: opacity 0.2s !important; }
+  .nav-cta:hover { opacity: 0.88; }
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+  .hamburger span { display: block; width: 24px; height: 1.5px; background: var(--white); transition: 0.3s; }
+
+  /* HERO */
+  #hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 120px 2rem 80px; position: relative; overflow: hidden; }
+  .hero-bg { position: absolute; inset: 0; z-index: 0; background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(79,110,247,0.12) 0%, transparent 70%), radial-gradient(ellipse 50% 40% at 80% 80%, rgba(124,58,237,0.08) 0%, transparent 60%); }
+  .hero-grid { position: absolute; inset: 0; z-index: 0; background-image: linear-gradient(rgba(79,110,247,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(79,110,247,0.04) 1px, transparent 1px); background-size: 60px 60px; mask-image: radial-gradient(ellipse 80% 80% at 50% 40%, black 0%, transparent 100%); }
+  .hero-content { position: relative; z-index: 1; max-width: 860px; text-align: center; }
+  .hero-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(79,110,247,0.1); border: 1px solid rgba(79,110,247,0.3); border-radius: 100px; padding: 0.35rem 1rem; font-size: 0.78rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: #93aafc; margin-bottom: 2rem; animation: fadeUp 0.8s both; }
+  .hero-badge::before { content: ''; display: block; width: 6px; height: 6px; background: var(--accent); border-radius: 50%; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(0.7); } }
+  .hero-headline { font-family: var(--font-display); font-size: clamp(2.8rem, 7vw, 5.5rem); font-weight: 800; line-height: 1.0; letter-spacing: -0.03em; color: var(--white); margin-bottom: 1.5rem; animation: fadeUp 0.8s 0.1s both; }
+  .hero-headline .line-2 { display: block; background: linear-gradient(135deg, var(--accent) 0%, #a78bfa 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .hero-sub { font-size: clamp(1rem, 2vw, 1.2rem); color: var(--gray-600); max-width: 560px; margin: 0 auto; font-weight: 300; animation: fadeUp 0.8s 0.2s both; }
+  .hero-sub strong { color: var(--white); font-weight: 500; }
+  .hero-stats { display: flex; gap: 3rem; justify-content: center; flex-wrap: wrap; margin-top: 4rem; padding-top: 2.5rem; border-top: 1px solid rgba(255,255,255,0.06); animation: fadeUp 0.8s 0.3s both; }
+  .hero-stat { text-align: center; }
+  .hero-stat-num { font-family: var(--font-display); font-size: 2rem; font-weight: 700; color: var(--white); display: flex; align-items: center; justify-content: center; gap: 6px; }
+  .hero-stat-num span { color: var(--accent); }
+  .hero-stat-label { font-size: 0.78rem; color: var(--gray-500); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 4px; }
+
+  /* SECTION BASE */
+  section { padding: 100px 2rem; }
+  .container { max-width: 1080px; margin: 0 auto; }
+  .section-eyebrow { font-size: 0.72rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; }
+  .section-title { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; letter-spacing: -0.025em; line-height: 1.15; margin-bottom: 1.5rem; }
+
+  /* CHI SONO */
+  #chi-sono { border-top: 1px solid rgba(255,255,255,0.06); }
+  .story-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .story-left { position: sticky; top: 100px; }
+  .story-portrait { width: 100%; aspect-ratio: 4/5; background: var(--gray-100); border-radius: 12px; border: 1px solid rgba(255,255,255,0.06); overflow: hidden; position: relative; display: flex; align-items: center; justify-content: center; }
+  .story-portrait-placeholder { font-family: var(--font-display); font-size: 5rem; font-weight: 800; color: rgba(79,110,247,0.2); letter-spacing: -0.05em; }
+  .story-portrait::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(8,8,8,0.6) 0%, transparent 50%); }
+  .story-tag { position: absolute; bottom: 1.5rem; left: 1.5rem; z-index: 1; background: rgba(8,8,8,0.8); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; padding: 0.6rem 1rem; font-size: 0.82rem; }
+  .story-right { padding-top: 0.5rem; }
+  .story-block { margin-bottom: 2.5rem; padding-bottom: 2.5rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .story-block:last-child { border-bottom: none; margin-bottom: 0; }
+  .story-block-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--gray-500); margin-bottom: 0.8rem; }
+  .story-block-text { font-size: 1.05rem; color: var(--gray-600); line-height: 1.7; }
+  .story-block-text strong { color: var(--white); font-weight: 500; }
+
+  /* COSA FACCIO */
+  #cosa-faccio { background: var(--gray-100); border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5px; background: rgba(255,255,255,0.06); border-radius: 12px; overflow: hidden; }
+  .service-card { background: var(--gray-100); padding: 2.5rem; transition: background 0.3s; }
+  .service-card:hover { background: var(--gray-200); }
+  .service-icon { width: 44px; height: 44px; background: var(--accent-dim); border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; font-size: 1.2rem; }
+  .service-title { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; margin-bottom: 0.8rem; }
+  .service-text { font-size: 0.9rem; color: var(--gray-500); line-height: 1.6; }
+  .benefits-list { list-style: none; margin-top: 4rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  .benefit-item { display: flex; align-items: flex-start; gap: 12px; padding: 1.2rem 1.5rem; background: rgba(79,110,247,0.05); border: 1px solid rgba(79,110,247,0.12); border-radius: 8px; font-size: 0.92rem; }
+  .benefit-check { color: var(--accent); font-size: 1rem; flex-shrink: 0; margin-top: 2px; }
+
+  /* RISULTATI */
+  #risultati { border-top: 1px solid rgba(255,255,255,0.06); }
+  .results-header { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: end; margin-bottom: 4rem; }
+  .proof-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .proof-card { background: var(--gray-100); border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; overflow: hidden; }
+  .proof-card-top { aspect-ratio: 16/9; background: var(--gray-200); display: flex; align-items: center; justify-content: center; border-bottom: 1px solid rgba(255,255,255,0.06); color: var(--gray-500); font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; }
+  .proof-card-top img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .proof-card-body { padding: 1.2rem 1.5rem; }
+  .proof-card-title { font-weight: 500; font-size: 0.9rem; margin-bottom: 0.3rem; }
+  .proof-card-sub { font-size: 0.8rem; color: var(--gray-500); }
+
+  /* TESTIMONIANZE */
+  #testimonianze { background: var(--gray-100); border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .testi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 3rem; }
+  .testi-card { padding: 2rem; background: var(--gray-200); border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; display: flex; flex-direction: column; transition: border-color 0.3s; }
+  .testi-card:hover { border-color: rgba(79,110,247,0.3); }
+  .testi-stars { color: #f59e0b; font-size: 0.85rem; margin-bottom: 1rem; letter-spacing: 2px; }
+  .testi-text { font-size: 0.95rem; color: var(--gray-600); line-height: 1.65; flex: 1; margin-bottom: 1.5rem; }
+  .testi-text strong { color: var(--white); font-weight: 500; }
+  .testi-author { display: flex; align-items: center; gap: 12px; }
+  .testi-avatar { width: 40px; height: 40px; border-radius: 50%; background: var(--accent-dim); border: 1px solid rgba(79,110,247,0.3); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-weight: 700; font-size: 0.85rem; color: var(--accent); flex-shrink: 0; }
+  .testi-name { font-size: 0.88rem; font-weight: 500; }
+  .testi-role { font-size: 0.75rem; color: var(--gray-500); }
+
+  /* FAQ */
+  #faq { border-top: 1px solid rgba(255,255,255,0.06); }
+  .faq-layout { display: grid; grid-template-columns: 1fr 2fr; gap: 4rem; align-items: start; }
+  .faq-left { position: sticky; top: 100px; }
+  .faq-item { border-bottom: 1px solid rgba(255,255,255,0.06); overflow: hidden; }
+  .faq-question { width: 100%; background: transparent; border: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 0; font-family: var(--font-body); font-size: 1rem; font-weight: 500; color: var(--white); text-align: left; gap: 1rem; }
+  .faq-icon { width: 24px; height: 24px; flex-shrink: 0; background: var(--gray-300); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; transition: background 0.2s, transform 0.3s; }
+  .faq-item.open .faq-icon { background: var(--accent); transform: rotate(45deg); }
+  .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+  .faq-item.open .faq-answer { max-height: 400px; }
+  .faq-answer-inner { padding-bottom: 1.5rem; font-size: 0.95rem; color: var(--gray-500); line-height: 1.7; }
+  .faq-answer-inner strong { color: var(--white); font-weight: 500; }
+
+  /* CONTATTO */
+  #contatti { background: var(--gray-100); border-top: 1px solid rgba(255,255,255,0.06); }
+  .contact-layout { display: grid; grid-template-columns: 1fr 1.6fr; gap: 4rem; align-items: start; }
+  .contact-left { position: sticky; top: 100px; }
+  .contact-desc { font-size: 1rem; color: var(--gray-500); line-height: 1.7; margin-bottom: 2rem; }
+  .contact-warnings { list-style: none; display: flex; flex-direction: column; gap: 0.8rem; }
+  .contact-warning-item { display: flex; align-items: flex-start; gap: 10px; font-size: 0.88rem; color: var(--gray-500); }
+  .contact-warning-item::before { content: '—'; color: var(--accent); flex-shrink: 0; margin-top: 1px; }
+
+  /* FORM */
+  .form-card { background: var(--black); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 2.5rem; }
+  .form-step { display: none; }
+  .form-step.active { display: block; }
+  .form-progress { display: flex; gap: 4px; margin-bottom: 2rem; }
+  .progress-bar { height: 2px; flex: 1; background: rgba(255,255,255,0.1); border-radius: 2px; transition: background 0.3s; }
+  .progress-bar.done { background: var(--accent); }
+  .step-label { font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gray-500); margin-bottom: 1.5rem; }
+  .step-title { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; margin-bottom: 1.5rem; line-height: 1.3; }
+
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+  .form-group { margin-bottom: 1rem; display: flex; flex-direction: column; }
+  .form-group > .field-label { font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gray-500); margin-bottom: 0.5rem; }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    background: var(--gray-100); border: 1px solid rgba(255,255,255,0.08); border-radius: 6px;
+    color: var(--white); font-family: var(--font-body); font-size: 0.95rem;
+    padding: 0.75rem 1rem; outline: none; transition: border-color 0.2s;
+    width: 100%; appearance: none; -webkit-appearance: none;
+  }
+  .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--accent); background: rgba(79,110,247,0.05); }
+  .form-group input.error, .form-group select.error, .form-group textarea.error { border-color: var(--red); }
+  .form-group textarea { resize: vertical; min-height: 100px; }
+  .form-group select option { background: var(--gray-200); color: var(--white); }
+  .form-group .error-msg { font-size: 0.75rem; color: var(--red); margin-top: 0.4rem; display: none; }
+  .form-group.has-error .error-msg { display: block; }
+
+  /* ── BUG FIX: radio/checkbox sono DIV, non LABEL, per evitare doppio evento ── */
+  .radio-group, .checkbox-group { display: flex; flex-direction: column; gap: 0.6rem; }
+
+  .radio-option, .checkbox-option {
+    display: flex; align-items: center; gap: 10px;
+    padding: 0.75rem 1rem;
+    background: var(--gray-100); border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 6px; cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    font-size: 0.92rem; user-select: none;
+  }
+  .radio-option:hover, .checkbox-option:hover { border-color: rgba(79,110,247,0.3); background: rgba(79,110,247,0.05); }
+  .radio-option.selected, .checkbox-option.selected { border-color: var(--accent); background: rgba(79,110,247,0.1); color: var(--white); }
+
+  .radio-dot {
+    width: 16px; height: 16px; flex-shrink: 0; border-radius: 50%;
+    border: 1.5px solid rgba(255,255,255,0.25);
+    display: flex; align-items: center; justify-content: center;
+    transition: 0.2s; background: transparent;
+  }
+  .radio-option.selected .radio-dot { background: var(--accent); border-color: var(--accent); }
+  .radio-option.selected .radio-dot::after { content: ''; display: block; width: 6px; height: 6px; background: #fff; border-radius: 50%; }
+
+  .check-box {
+    width: 16px; height: 16px; flex-shrink: 0; border-radius: 3px;
+    border: 1.5px solid rgba(255,255,255,0.25);
+    display: flex; align-items: center; justify-content: center;
+    transition: 0.2s; background: transparent; font-size: 0.7rem; line-height: 1;
+  }
+  .checkbox-option.selected .check-box { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+  /* Privacy */
+  .privacy-row {
+    display: flex; align-items: flex-start; gap: 10px;
+    padding: 1rem; background: rgba(79,110,247,0.04);
+    border: 1px solid rgba(79,110,247,0.12); border-radius: 6px;
+    cursor: pointer; margin-bottom: 0.5rem; transition: border-color 0.2s; user-select: none;
+  }
+  .privacy-row:hover { border-color: rgba(79,110,247,0.3); }
+  .privacy-row.selected { border-color: var(--accent); background: rgba(79,110,247,0.08); }
+  .privacy-row .check-box { margin-top: 2px; flex-shrink: 0; }
+  .privacy-text { font-size: 0.82rem; color: var(--gray-500); line-height: 1.5; }
+  .privacy-row.selected .privacy-text { color: var(--gray-600); }
+  .privacy-text a { color: var(--accent); text-decoration: none; }
+  .privacy-text a:hover { text-decoration: underline; }
+  .privacy-error { font-size: 0.75rem; color: var(--red); margin-bottom: 1rem; display: none; }
+
+  /* Scale */
+  .scale-group { display: flex; gap: 0.5rem; }
+  .scale-btn {
+    flex: 1; padding: 0.7rem; background: var(--gray-100);
+    border: 1px solid rgba(255,255,255,0.08); border-radius: 6px; cursor: pointer;
+    text-align: center; color: var(--gray-600); transition: 0.2s;
+    display: flex; flex-direction: column; align-items: center; gap: 4px; user-select: none;
+  }
+  .scale-btn .scale-num { font-family: var(--font-display); font-size: 1.2rem; font-weight: 700; color: var(--white); }
+  .scale-btn .scale-text { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .scale-btn:hover { border-color: rgba(79,110,247,0.3); background: rgba(79,110,247,0.05); }
+  .scale-btn.selected { border-color: var(--accent); background: rgba(79,110,247,0.1); }
+
+  .form-nav { display: flex; gap: 1rem; margin-top: 1.5rem; }
+  .btn-next { flex: 1; background: var(--accent); color: #fff; border: none; border-radius: 6px; padding: 0.9rem; font-family: var(--font-body); font-size: 0.95rem; font-weight: 500; cursor: pointer; transition: opacity 0.2s, transform 0.2s; display: flex; align-items: center; justify-content: center; gap: 8px; }
+  .btn-next:hover { opacity: 0.88; transform: translateY(-1px); }
+  .btn-next:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+  .btn-prev { background: transparent; color: var(--gray-500); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; padding: 0.9rem 1.2rem; font-family: var(--font-body); font-size: 0.9rem; cursor: pointer; transition: 0.2s; }
+  .btn-prev:hover { color: var(--white); border-color: rgba(255,255,255,0.25); }
+
+  /* SUCCESS */
+  .form-success { display: none; text-align: center; padding: 2rem 0; }
+  .success-icon { width: 64px; height: 64px; background: rgba(34,197,94,0.1); border: 1px solid rgba(34,197,94,0.3); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 1.5rem; }
+  .success-title { font-family: var(--font-display); font-size: 1.4rem; font-weight: 700; margin-bottom: 1.2rem; }
+  .success-msg { font-size: 0.95rem; color: var(--gray-500); line-height: 1.8; max-width: 420px; margin: 0 auto; }
+  .success-msg strong { color: var(--white); font-weight: 500; }
+  .success-line { display: block; height: 1px; background: rgba(255,255,255,0.06); margin: 1.5rem 0; }
+
+  /* ANIMATIONS */
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+  .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  /* FOOTER */
+  footer { border-top: 1px solid rgba(255,255,255,0.06); padding: 2.5rem 2rem; text-align: center; font-size: 0.8rem; color: var(--gray-500); }
+
+  /* MOBILE */
+  @media (max-width: 900px) {
+    .story-grid, .faq-layout, .contact-layout, .results-header { grid-template-columns: 1fr; gap: 2rem; }
+    .story-left, .faq-left, .contact-left { position: static; }
+    .services-grid, .testi-grid, .proof-cards { grid-template-columns: 1fr; }
+    .benefits-list { grid-template-columns: 1fr; }
+    .hero-stats { gap: 2rem; }
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+    .form-row { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 600px) {
+    section { padding: 70px 1.2rem; }
+    .form-card { padding: 1.5rem; }
+    .scale-group { flex-wrap: wrap; }
+    .scale-btn { min-width: calc(50% - 4px); }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">W<span>.</span>R</a>
+  <ul class="nav-links">
+    <li><a href="#chi-sono">Chi sono</a></li>
+    <li><a href="#cosa-faccio">Cosa faccio</a></li>
+    <li><a href="#risultati">Risultati</a></li>
+    <li><a href="#testimonianze">Testimonianze</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#contatti" class="nav-cta">Candidati</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMobileMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Candidature aperte — Posti limitati</div>
+    <h1 class="hero-headline">
+      Smetti di aspettare.<br>
+      <span class="line-2">Costruisci la tua libertà.</span>
+    </h1>
+    <p class="hero-sub">
+      Un metodo concreto per generare <strong>entrate reali online</strong>, senza esperienza, senza guru, senza perdere tempo. Solo risultati che puoi misurare.
+    </p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">+<span>15.000</span></div>
+        <div class="hero-stat-label">Persone in Italia</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">
+          <!-- Trustpilot rating image — sostituisci src con la tua immagine ufficiale -->
+          <img src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg" alt="Trustpilot 4.9 stelle" style="height:26px;display:block;">
+        </div>
+        <div class="hero-stat-label">Rating Trustpilot</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHI SONO -->
+<section id="chi-sono">
+  <div class="container">
+    <div class="story-grid">
+      <div class="story-left reveal">
+        <div class="story-portrait">
+          <!-- Foto profilo: sostituisci con <img src="/foto-william.jpg" alt="William Rossetti" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;"> -->
+          <div class="story-portrait-placeholder">WR</div>
+          <div class="story-tag">William Rossetti · Imprenditore digitale</div>
+        </div>
+      </div>
+      <div class="story-right">
+        <div class="section-eyebrow reveal">Chi sono</div>
+        <h2 class="section-title reveal">Non ci sono scorciatoie. Ma c'è un percorso.</h2>
+
+        <div class="story-block reveal">
+          <div class="story-block-label">Il problema</div>
+          <p class="story-block-text">A 24 anni avevo un lavoro fisso, <strong>1.400€ al mese</strong>, e la sensazione netta che la mia vita fosse già decisa da qualcun altro. Niente risparmi. Niente margine. Niente libertà.</p>
+        </div>
+
+        <div class="story-block reveal">
+          <div class="story-block-label">La svolta</div>
+          <p class="story-block-text">Ho passato 14 mesi a testare ogni metodo online possibile. La maggior parte erano fumo. Tra tutti quelli analizzati, <strong>uno solo si è rivelato realmente replicabile e scalabile</strong> dal mio punto di vista — e ho capito perché. Non per fortuna. Per struttura.</p>
+        </div>
+
+        <div class="story-block reveal">
+          <div class="story-block-label">Il risultato</div>
+          <p class="story-block-text">Oggi lavoro da dove voglio. Ho un sistema che genera entrate anche mentre dormo. E negli ultimi anni ho aiutato <strong>migliaia di persone</strong> a replicare lo stesso processo — adattato alla loro situazione.</p>
+        </div>
+
+        <div class="story-block reveal">
+          <div class="story-block-label">Perché funziona</div>
+          <p class="story-block-text">Funziona perché lavoriamo in due su <strong>buchi di mercato enormi</strong>: il settore dell'educazione finanziaria e il settore dell'intelligenza artificiale.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COSA FACCIO -->
+<section id="cosa-faccio">
+  <div class="container">
+    <div class="section-eyebrow reveal">Cosa faccio</div>
+    <h2 class="section-title reveal" style="max-width:600px;">Un sistema. Tre pilastri. Zero improvvisazione.</h2>
+
+    <div class="services-grid reveal">
+      <div class="service-card">
+        <div class="service-icon">⚡</div>
+        <div class="service-title">Metodo strutturato</div>
+        <p class="service-text">Niente intuizioni. Ogni fase è mappata, testata, ripetibile. Sai esattamente cosa fare e in quale ordine.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🎯</div>
+        <div class="service-title">Community competente</div>
+        <p class="service-text">Non un corso da guardare da soli, ma verrai affiancato da una community di persone competenti e che hanno raggiunto già i risultati che desideri.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📊</div>
+        <div class="service-title">Metriche reali</div>
+        <p class="service-text">Traccio ogni cosa. Sai quando stai andando bene e quando devi correggere. Nessuna illusione.</p>
+      </div>
+    </div>
+
+    <ul class="benefits-list reveal">
+      <li class="benefit-item"><span class="benefit-check">✓</span> Compatibile con Lavoro o Università</li>
+      <li class="benefit-item"><span class="benefit-check">✓</span> Risultati misurabili nei primi 30–60 giorni</li>
+      <li class="benefit-item"><span class="benefit-check">✓</span> Nessuna esperienza richiesta</li>
+      <li class="benefit-item"><span class="benefit-check">✓</span> Sistema scalabile: cresci al tuo ritmo</li>
+    </ul>
+  </div>
+</section>
+
+<!-- RISULTATI -->
+<section id="risultati">
+  <div class="container">
+    <div class="results-header">
+      <div>
+        <div class="section-eyebrow reveal">I miei risultati</div>
+        <h2 class="section-title reveal">Prove reali. Persone reali.</h2>
+      </div>
+      <div class="reveal">
+        <p style="color:var(--gray-500);font-size:1rem;line-height:1.7;">Non faccio promesse che non posso mantenere. Questi sono risultati documentati, non marketing. I risultati variano — ma il metodo funziona per chi lo applica davvero.</p>
+      </div>
+    </div>
+
+    <div class="proof-cards">
+      <div class="proof-card reveal">
+        <div class="proof-card-top">
+          <!-- screenshot risultato 1 — inserisci: <img src="/proof-1.jpg" alt="Risultato 1"> -->
+          Screenshot risultato
+        </div>
+        <div class="proof-card-body">
+          <div class="proof-card-title">Prima entrata extra mensile</div>
+          <div class="proof-card-sub">Risultato documentato · Programma attivo</div>
+        </div>
+      </div>
+      <div class="proof-card reveal">
+        <div class="proof-card-top">
+          <!-- screenshot risultato 2 — inserisci: <img src="/proof-2.jpg" alt="Risultato 2"> -->
+          Screenshot risultato
+        </div>
+        <div class="proof-card-body">
+          <div class="proof-card-title">Crescita mese su mese</div>
+          <div class="proof-card-sub">Risultato documentato · Programma attivo</div>
+        </div>
+      </div>
+      <div class="proof-card reveal">
+        <div class="proof-card-top">
+          <!-- screenshot risultato 3 — inserisci: <img src="/proof-3.jpg" alt="Risultato 3"> -->
+          Screenshot risultato
+        </div>
+        <div class="proof-card-body">
+          <div class="proof-card-title">Prima settimana attiva</div>
+          <div class="proof-card-sub">Risultato documentato · Programma attivo</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIANZE -->
+<section id="testimonianze">
+  <div class="container">
+    <div class="section-eyebrow reveal">Testimonianze</div>
+    <h2 class="section-title reveal">Cosa dicono le persone nel programma</h2>
+
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Ero scettico. Ho provato altri corsi, speso soldi, zero risultati. <strong>Con William ho fatto il primo guadagno reale in 38 giorni.</strong> Non è magia — è un sistema che funziona se lo applichi."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">GM</div>
+          <div>
+            <div class="testi-name">Gabriele Montemagno</div>
+            <div class="testi-role">34 anni · Magazziniere → Imprenditore digitale</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Stavo cercando qualcosa di serio, non l'ennesimo guru. <strong>Il supporto di William vale il doppio del prezzo.</strong> Sa dove blocchi e ti sblocca prima che tu ti perda."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">GD</div>
+          <div>
+            <div class="testi-name">Giorgio De Carli</div>
+            <div class="testi-role">28 anni · Studente → €4.100/mese</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"<strong>Da 0 a €2.800 in 2 mesi.</strong> Ho fatto esattamente quello che mi ha detto William. Niente di più. Il metodo è preciso e non lascia spazio alle scuse."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">NR</div>
+          <div>
+            <div class="testi-name">Nicole Ravaschio</div>
+            <div class="testi-role">41 anni · Disoccupata → Indipendente</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Avevo 19 anni e nessuna idea di da dove iniziare. <strong>William mi ha dato un piano chiaro</strong>, passo dopo passo. Oggi ho un'entrata stabile e gestisco il mio tempo."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">AC</div>
+          <div>
+            <div class="testi-name">Alessandro Colella</div>
+            <div class="testi-role">19 anni · Studente → Prima entrata autonoma</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Ho 47 anni e pensavo non facesse per me. <strong>Mi sbagliavo. Il metodo funziona indipendentemente dall'età</strong> — conta solo la mentalità."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">MB</div>
+          <div>
+            <div class="testi-name">Mayan Bulatovic</div>
+            <div class="testi-role">47 anni · Dipendente → Doppio reddito</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Non vendono sogni. Ogni sessione è pratica, concreta, misurabile. <strong>Il mio ritorno sull'investimento è stato 8x in 4 mesi.</strong> Parlano i numeri."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">BT</div>
+          <div>
+            <div class="testi-name">Beatrice Tiberi</div>
+            <div class="testi-role">22 anni · Neolaureata → ROI 8x</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="faq-layout">
+      <div class="faq-left reveal">
+        <div class="section-eyebrow">FAQ</div>
+        <h2 class="section-title">Le domande che mi fai sempre</h2>
+        <p style="color:var(--gray-500);font-size:0.95rem;line-height:1.7;margin-top:1rem;">Risposte dirette, senza filtri. Se dopo le FAQ hai ancora dubbi, candidati e ne parliamo.</p>
+      </div>
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">Non ho esperienza. Funziona lo stesso?<span class="faq-icon">+</span></button>
+          <div class="faq-answer"><p class="faq-answer-inner"><strong>Sì, ma a una condizione:</strong> devi essere disposto a imparare. Non serve esperienza tecnica. Serve la voglia di applicare un metodo senza saltare i passaggi. Il 70% delle persone nel programma sono partite da zero.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">In quanto tempo vedo i primi risultati?<span class="faq-icon">+</span></button>
+          <div class="faq-answer"><p class="faq-answer-inner">La media è <strong>30–60 giorni al primo guadagno concreto</strong>. Alcuni arrivano prima, altri ci mettono più tempo. Dipende da quanto tempo puoi dedicarci. Non prometto miracoli, prometto un percorso chiaro.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">Quanto tempo devo dedicarci ogni giorno?<span class="faq-icon">+</span></button>
+          <div class="faq-answer"><p class="faq-answer-inner">Minimo <strong>1–2 ore al giorno</strong> per iniziare. Il sistema è progettato per chi ha già un lavoro o degli impegni universitari. Non devi mollare tutto dall'inizio — costruisci il nuovo mentre mantieni il vecchio.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">È l'ennesimo corso da guardare su YouTube?<span class="faq-icon">+</span></button>
+          <div class="faq-answer"><p class="faq-answer-inner"><strong>No.</strong> Non vendo un corso generico. Entrerai in una community di persone reali che hanno già ottenuto risultati, con supporto diretto e feedback concreti. Il mio nome è legato ai tuoi risultati.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">Accetti tutti?<span class="faq-icon">+</span></button>
+          <div class="faq-answer"><p class="faq-answer-inner"><strong>No.</strong> Seleziono personalmente chi entra nel programma. Non voglio persone che cercano magia o soluzioni facili. La candidatura serve esattamente a questo.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">Quanto costa il programma?<span class="faq-icon">+</span></button>
+          <div class="faq-answer"><p class="faq-answer-inner">Il costo dipende dal percorso che ti serve. <strong>Ne parliamo dopo la selezione</strong>, quando capisco la tua situazione reale. È un investimento su te stesso, non una spesa. E i risultati lo ripagano.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATTI -->
+<section id="contatti">
+  <div class="container">
+    <div class="contact-layout">
+      <div class="contact-left">
+        <div class="section-eyebrow reveal">Candidatura</div>
+        <h2 class="section-title reveal">Sei pronto a fare sul serio?</h2>
+        <p class="contact-desc reveal">Compila il modulo con attenzione. Analizzo ogni candidatura personalmente. Contatto solo le persone in linea con quello che faccio.</p>
+        <ul class="contact-warnings reveal">
+          <li class="contact-warning-item">Non è per chi cerca scorciatoie</li>
+          <li class="contact-warning-item">Non è per chi non vuole investire su sé stesso</li>
+          <li class="contact-warning-item">È per chi è stanco di aspettare e vuole cambiare davvero</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="form-card reveal">
+          <div class="form-progress" id="formProgress">
+            <div class="progress-bar done" id="p1"></div>
+            <div class="progress-bar" id="p2"></div>
+            <div class="progress-bar" id="p3"></div>
+            <div class="progress-bar" id="p4"></div>
+          </div>
+
+          <!-- ═══ STEP 1 — Dati personali (WhatsApp rimosso, spostato in Step 4) ═══ -->
+          <div class="form-step active" id="step1">
+            <div class="step-label">Passo 1 di 4 · Dati personali</div>
+            <div class="step-title">Chi sei?</div>
+
+            <div class="form-row">
+              <div class="form-group" id="grp-nome">
+                <span class="field-label">Nome *</span>
+                <input type="text" id="nome" placeholder="William" autocomplete="given-name">
+                <span class="error-msg">Campo obbligatorio</span>
+              </div>
+              <div class="form-group" id="grp-cognome">
+                <span class="field-label">Cognome *</span>
+                <input type="text" id="cognome" placeholder="Rossetti" autocomplete="family-name">
+                <span class="error-msg">Campo obbligatorio</span>
+              </div>
+            </div>
+
+            <div class="form-group" id="grp-email">
+              <span class="field-label">Email *</span>
+              <input type="email" id="email" placeholder="nome@email.com" autocomplete="email">
+              <span class="error-msg">Inserisci un'email valida</span>
+            </div>
+
+            <div class="form-group" id="grp-eta">
+              <span class="field-label">Età *</span>
+              <select id="eta">
+                <option value="">Seleziona la tua fascia d'età</option>
+                <option value="under18">Meno di 18</option>
+                <option value="18-21">18–21</option>
+                <option value="22-25">22–25</option>
+                <option value="26-30">26–30</option>
+                <option value="30+">30+</option>
+              </select>
+              <span class="error-msg">Campo obbligatorio</span>
+            </div>
+
+            <div class="form-nav">
+              <button class="btn-next" onclick="nextStep(1)">Continua →</button>
+            </div>
+          </div>
+
+          <!-- ═══ STEP 2 — Situazione attuale ═══ -->
+          <div class="form-step" id="step2">
+            <div class="step-label">Passo 2 di 4 · La tua situazione</div>
+            <div class="step-title">Dimmi dove sei ora.</div>
+
+            <div class="form-group">
+              <span class="field-label">Cosa stai cercando in questo momento? *</span>
+              <div class="checkbox-group" id="cercando">
+                <div class="checkbox-option" data-value="entrata-extra" onclick="toggleCheck(this)">
+                  <span class="check-box"></span>Un'entrata extra
+                </div>
+                <div class="checkbox-option" data-value="cambiamento-totale" onclick="toggleCheck(this)">
+                  <span class="check-box"></span>Un cambiamento totale
+                </div>
+                <div class="checkbox-option" data-value="nuove-competenze" onclick="toggleCheck(this)">
+                  <span class="check-box"></span>Imparare nuove competenze
+                </div>
+                <div class="checkbox-option" data-value="non-so" onclick="toggleCheck(this)">
+                  <span class="check-box"></span>Non lo so, ma voglio migliorare
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span class="field-label">Qual è la tua situazione attuale? *</span>
+              <div class="radio-group" id="situazione">
+                <div class="radio-option" data-value="studente" onclick="selectRadio(this, 'situazione')">
+                  <span class="radio-dot"></span>Studente
+                </div>
+                <div class="radio-option" data-value="dipendente" onclick="selectRadio(this, 'situazione')">
+                  <span class="radio-dot"></span>Dipendente
+                </div>
+                <div class="radio-option" data-value="disoccupato" onclick="selectRadio(this, 'situazione')">
+                  <span class="radio-dot"></span>Disoccupato
+                </div>
+                <div class="radio-option" data-value="business-online" onclick="selectRadio(this, 'situazione')">
+                  <span class="radio-dot"></span>Già nel business/online
+                </div>
+              </div>
+            </div>
+
+            <div class="form-nav">
+              <button class="btn-prev" onclick="prevStep(2)">←</button>
+              <button class="btn-next" onclick="nextStep(2)">Continua →</button>
+            </div>
+          </div>
+
+          <!-- ═══ STEP 3 — Mentalità e investimento ═══ -->
+          <div class="form-step" id="step3">
+            <div class="step-label">Passo 3 di 4 · Mentalità e investimento</div>
+            <div class="step-title">Sii onesto. È fondamentale.</div>
+
+            <div class="form-group">
+              <span class="field-label">Hai già provato qualcosa di simile?</span>
+              <div class="radio-group" id="provato">
+                <div class="radio-option" data-value="si-risultati" onclick="selectRadio(this, 'provato')">
+                  <span class="radio-dot"></span>Sì, con risultati
+                </div>
+                <div class="radio-option" data-value="si-no-risultati" onclick="selectRadio(this, 'provato')">
+                  <span class="radio-dot"></span>Sì, senza risultati
+                </div>
+                <div class="radio-option" data-value="no-mai" onclick="selectRadio(this, 'provato')">
+                  <span class="radio-dot"></span>No, mai
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span class="field-label">Quanto sei disposto a investire su te stesso? *</span>
+              <div class="radio-group" id="investimento">
+                <div class="radio-option" data-value="0" onclick="selectRadio(this, 'investimento')">
+                  <span class="radio-dot"></span>0€ — Non posso permettermi nulla ora
+                </div>
+                <div class="radio-option" data-value="50-200" onclick="selectRadio(this, 'investimento')">
+                  <span class="radio-dot"></span>50–200€
+                </div>
+                <div class="radio-option" data-value="200-500" onclick="selectRadio(this, 'investimento')">
+                  <span class="radio-dot"></span>200–500€
+                </div>
+                <div class="radio-option" data-value="500+" onclick="selectRadio(this, 'investimento')">
+                  <span class="radio-dot"></span>500€+ — Sono pronto a investire seriamente
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span class="field-label">Quanto sei serio nel voler cambiare la tua situazione? *</span>
+              <div class="scale-group" id="serioScore">
+                <div class="scale-btn" onclick="selectScale(this, 'serioScore')" data-val="1">
+                  <span class="scale-num">1</span><span class="scale-text">Curioso</span>
+                </div>
+                <div class="scale-btn" onclick="selectScale(this, 'serioScore')" data-val="2">
+                  <span class="scale-num">2</span>
+                </div>
+                <div class="scale-btn" onclick="selectScale(this, 'serioScore')" data-val="3">
+                  <span class="scale-num">3</span>
+                </div>
+                <div class="scale-btn" onclick="selectScale(this, 'serioScore')" data-val="4">
+                  <span class="scale-num">4</span>
+                </div>
+                <div class="scale-btn" onclick="selectScale(this, 'serioScore')" data-val="5">
+                  <span class="scale-num">5</span><span class="scale-text">Determinato</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-nav">
+              <button class="btn-prev" onclick="prevStep(3)">←</button>
+              <button class="btn-next" onclick="nextStep(3)">Continua →</button>
+            </div>
+          </div>
+
+          <!-- ═══ STEP 4 — Motivazione + WhatsApp + Privacy ═══ -->
+          <div class="form-step" id="step4">
+            <div class="step-label">Passo 4 di 4 · Motivazione</div>
+            <div class="step-title">Perché dovrei scegliere proprio te?</div>
+
+            <div class="form-group" id="grp-perche">
+              <span class="field-label">Convincimi *</span>
+              <textarea id="perche" placeholder="Spiegami la tua situazione reale. Cosa ti ha portato qui, cosa non sta funzionando, cosa vuoi ottenere. Più sei specifico, meglio posso valutare se posso aiutarti davvero." style="min-height:130px;"></textarea>
+              <span class="error-msg">Scrivi almeno 30 caratteri — non lasciare questo campo vuoto</span>
+            </div>
+
+            <div class="form-group">
+              <span class="field-label">Quando saresti disponibile per essere contattato?</span>
+              <div class="radio-group" id="disponibilita">
+                <div class="radio-option" data-value="subito" onclick="selectRadio(this, 'disponibilita')">
+                  <span class="radio-dot"></span>Subito — prima mi contatti, meglio è
+                </div>
+                <div class="radio-option" data-value="oggi" onclick="selectRadio(this, 'disponibilita')">
+                  <span class="radio-dot"></span>Oggi
+                </div>
+                <div class="radio-option" data-value="prossimi-giorni" onclick="selectRadio(this, 'disponibilita')">
+                  <span class="radio-dot"></span>Nei prossimi giorni
+                </div>
+              </div>
+            </div>
+
+            <!-- WhatsApp spostato in Step 4 -->
+            <div class="form-group" id="grp-whatsapp">
+              <span class="field-label">A che numero WhatsApp posso scriverti per darti l'esito? *</span>
+              <input type="tel" id="whatsapp" placeholder="+39 333 000 0000" autocomplete="tel">
+              <span class="error-msg">Inserisci un numero valido (min 8 cifre)</span>
+            </div>
+
+            <!-- Privacy checkbox obbligatoria -->
+            <div class="privacy-row" id="privacyRow" onclick="togglePrivacy()">
+              <span class="check-box" id="privacyBox"></span>
+              <span class="privacy-text">
+                Accetto il trattamento dei dati personali secondo la <a href="#" onclick="event.stopPropagation();return false;">Privacy Policy</a>. I tuoi dati saranno usati esclusivamente per contattarti riguardo alla candidatura. *
+              </span>
+            </div>
+            <div class="privacy-error" id="privacyError">Devi accettare la Privacy Policy per procedere</div>
+
+            <div class="form-nav">
+              <button class="btn-prev" onclick="prevStep(4)">←</button>
+              <button class="btn-next" onclick="submitForm()" id="submitBtn">Invia candidatura →</button>
+            </div>
+          </div>
+
+          <!-- SUCCESS -->
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">✓</div>
+            <div class="success-title">Richiesta ricevuta.</div>
+            <p class="success-msg">
+              Analizzo personalmente ogni candidatura e contatto solo le persone in linea.
+              <span class="success-line"></span>
+              Se verrai selezionato, riceverai un messaggio su <strong>WhatsApp nelle prossime ore</strong> con i dettagli. Controlla di aver inserito correttamente il numero.
+              <span class="success-line"></span>
+              Nel frattempo, tieni presente una cosa: <strong>non è per tutti</strong> — lavoro solo con persone realmente motivate a cambiare situazione.
+              <br><br><strong>A breve.</strong>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 William Rossetti · Tutti i diritti riservati · <a href="#" style="color:var(--gray-500);">Privacy Policy</a></p>
+</footer>
+
+<script>
+/* ─── MOBILE MENU ─── */
+function toggleMobileMenu() {
+  const links = document.querySelector('.nav-links');
+  if (!links._open) {
+    links.style.cssText = 'display:flex;flex-direction:column;position:fixed;top:64px;left:0;right:0;background:rgba(8,8,8,0.97);padding:1.5rem 2rem 2rem;gap:1.2rem;border-bottom:1px solid rgba(255,255,255,0.08);z-index:999;';
+    links._open = true;
+  } else {
+    links.style.cssText = 'display:none;';
+    links._open = false;
+  }
+}
+
+/* ─── SCROLL REVEAL ─── */
+const revealEls = document.querySelectorAll('.reveal');
+const revealObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) { setTimeout(() => e.target.classList.add('visible'), 60); revealObserver.unobserve(e.target); }
+  });
+}, { threshold: 0.1 });
+revealEls.forEach(el => revealObserver.observe(el));
+
+/* ─── FAQ ─── */
+function toggleFaq(btn) {
+  const item = btn.closest('.faq-item');
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+
+/* ══════════════════════════════════════════════════════════
+   FORM — BUG FIX COMPLETO
+   Radio e checkbox sono <div> con onclick diretto sul div.
+   Nessun tag <label> wrapper → nessun doppio evento.
+   I valori vengono letti da data-value sul div stesso.
+══════════════════════════════════════════════════════════ */
+let currentStep = 1;
+const formData = {};
+let privacyAccepted = false;
+
+function updateProgress(step) {
+  for (let i = 1; i <= 4; i++) {
+    document.getElementById('p' + i).classList.toggle('done', i <= step);
+  }
+}
+
+function showStep(step) {
+  document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
+  const el = document.getElementById('step' + step);
+  if (el) el.classList.add('active');
+  updateProgress(step);
+  currentStep = step;
+}
+
+function nextStep(from) {
+  if (!validateStep(from)) return;
+  collectStepData(from);
+  showStep(from + 1);
+  document.querySelector('.form-card').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+function prevStep(from) {
+  showStep(from - 1);
+}
+
+/* Checkbox: toggling singolo elemento — nessun bubbling, nessun conflitto */
+function toggleCheck(el) {
+  el.classList.toggle('selected');
+  const box = el.querySelector('.check-box');
+  if (box) box.textContent = el.classList.contains('selected') ? '✓' : '';
+}
+
+/* Radio: deseleziona tutti nel gruppo, seleziona il cliccato */
+function selectRadio(el, groupId) {
+  document.querySelectorAll('#' + groupId + ' .radio-option').forEach(o => o.classList.remove('selected'));
+  el.classList.add('selected');
+}
+
+/* Scale: deseleziona tutti, seleziona il cliccato */
+function selectScale(el, groupId) {
+  document.querySelectorAll('#' + groupId + ' .scale-btn').forEach(b => b.classList.remove('selected'));
+  el.classList.add('selected');
+}
+
+/* Privacy toggle */
+function togglePrivacy() {
+  privacyAccepted = !privacyAccepted;
+  document.getElementById('privacyRow').classList.toggle('selected', privacyAccepted);
+  document.getElementById('privacyBox').textContent = privacyAccepted ? '✓' : '';
+  if (privacyAccepted) document.getElementById('privacyError').style.display = 'none';
+}
+
+/* ─── VALIDATION ─── */
+function validateStep(step) {
+  let valid = true;
+
+  if (step === 1) {
+    valid = checkRequired('nome', 'grp-nome') & valid;
+    valid = checkRequired('cognome', 'grp-cognome') & valid;
+    valid = checkEmail() & valid;
+    valid = checkSelect('eta', 'grp-eta') & valid;
+  }
+
+  if (step === 2) {
+    if (!document.querySelector('#cercando .checkbox-option.selected')) {
+      showToast('Seleziona almeno una risposta per "Cosa stai cercando"'); valid = false;
+    }
+    if (!document.querySelector('#situazione .radio-option.selected')) {
+      showToast('Seleziona la tua situazione attuale'); valid = false;
+    }
+  }
+
+  if (step === 3) {
+    if (!document.querySelector('#investimento .radio-option.selected')) {
+      showToast('Indica quanto sei disposto a investire'); valid = false;
+    }
+    if (!document.querySelector('#serioScore .scale-btn.selected')) {
+      showToast('Indica il tuo livello di serietà (da 1 a 5)'); valid = false;
+    }
+  }
+
+  if (step === 4) {
+    const txt = document.getElementById('perche').value.trim();
+    const grp = document.getElementById('grp-perche');
+    if (txt.length < 30) {
+      grp.classList.add('has-error');
+      document.getElementById('perche').classList.add('error');
+      valid = false;
+    } else {
+      grp.classList.remove('has-error');
+      document.getElementById('perche').classList.remove('error');
+    }
+    valid = checkPhone() & valid;
+    if (!privacyAccepted) {
+      document.getElementById('privacyError').style.display = 'block';
+      valid = false;
+    }
+  }
+
+  return !!valid;
+}
+
+function checkRequired(id, grpId) {
+  const el = document.getElementById(id);
+  const grp = document.getElementById(grpId);
+  const ok = !!el.value.trim();
+  grp.classList.toggle('has-error', !ok);
+  el.classList.toggle('error', !ok);
+  return ok;
+}
+
+function checkEmail() {
+  const el = document.getElementById('email');
+  const grp = document.getElementById('grp-email');
+  const ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value.trim());
+  grp.classList.toggle('has-error', !ok);
+  el.classList.toggle('error', !ok);
+  return ok;
+}
+
+function checkPhone() {
+  const el = document.getElementById('whatsapp');
+  const grp = document.getElementById('grp-whatsapp');
+  const digits = el.value.replace(/\D/g, '');
+  const ok = digits.length >= 8;
+  grp.classList.toggle('has-error', !ok);
+  el.classList.toggle('error', !ok);
+  return ok;
+}
+
+function checkSelect(id, grpId) {
+  const el = document.getElementById(id);
+  const grp = document.getElementById(grpId);
+  const ok = !!el.value;
+  grp.classList.toggle('has-error', !ok);
+  el.classList.toggle('error', !ok);
+  return ok;
+}
+
+/* ─── COLLECT DATA ─── */
+function collectStepData(step) {
+  if (step === 1) {
+    formData.nome = document.getElementById('nome').value.trim();
+    formData.cognome = document.getElementById('cognome').value.trim();
+    formData.email = document.getElementById('email').value.trim();
+    formData.eta = document.getElementById('eta').value;
+  }
+  if (step === 2) {
+    formData.cercando = [...document.querySelectorAll('#cercando .checkbox-option.selected')].map(el => el.dataset.value);
+    const sit = document.querySelector('#situazione .radio-option.selected');
+    formData.situazione = sit ? sit.dataset.value : '';
+  }
+  if (step === 3) {
+    const prov = document.querySelector('#provato .radio-option.selected');
+    formData.provato = prov ? prov.dataset.value : '';
+    const inv = document.querySelector('#investimento .radio-option.selected');
+    formData.investimento = inv ? inv.dataset.value : '';
+    const scale = document.querySelector('#serioScore .scale-btn.selected');
+    formData.serioScore = scale ? scale.dataset.val : '';
+  }
+  if (step === 4) {
+    formData.perche = document.getElementById('perche').value.trim();
+    const disp = document.querySelector('#disponibilita .radio-option.selected');
+    formData.disponibilita = disp ? disp.dataset.value : '';
+    formData.whatsapp = document.getElementById('whatsapp').value.trim();
+    formData.privacyAccepted = true;
+  }
+}
+
+/* ─── SUBMIT ─── */
+function submitForm() {
+  if (!validateStep(4)) return;
+  collectStepData(4);
+
+  const btn = document.getElementById('submitBtn');
+  btn.textContent = 'Invio in corso...';
+  btn.disabled = true;
+
+  /*
+    INTEGRAZIONE GOOGLE SHEETS:
+    1. Crea un Google Apps Script con doPost(e) che salva i dati nel foglio
+    2. Pubblica come Web App (esegui come: Me, accesso: Chiunque)
+    3. Incolla l'URL qui sotto al posto di YOUR_SCRIPT_ID
+    
+    INTEGRAZIONE AIRTABLE / HubSpot:
+    Sostituisci il fetch con la chiamata alla loro API REST
+  */
+  const SCRIPT_URL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
+  const payload = { ...formData, timestamp: new Date().toISOString(), source: window.location.href };
+
+  (async () => {
+    try {
+      await fetch(SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+    } catch (e) {
+      /* Fallback silenzioso — il successo viene mostrato sempre */
+      console.log('Lead da salvare manualmente:', JSON.stringify(payload, null, 2));
+    }
+    document.querySelectorAll('.form-step').forEach(s => { s.style.display = 'none'; });
+    document.getElementById('formProgress').style.display = 'none';
+    document.getElementById('formSuccess').style.display = 'block';
+  })();
+}
+
+/* ─── TOAST (sostituisce alert, non blocca il thread) ─── */
+function showToast(msg) {
+  let t = document.getElementById('_toast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = '_toast';
+    t.style.cssText = 'position:fixed;bottom:2rem;left:50%;transform:translateX(-50%) translateY(10px);background:#1a1a1a;border:1px solid rgba(239,68,68,0.5);color:#f5f4f0;padding:0.75rem 1.5rem;border-radius:6px;font-size:0.88rem;z-index:9999;opacity:0;transition:opacity 0.25s,transform 0.25s;white-space:nowrap;pointer-events:none;';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  requestAnimationFrame(() => { t.style.opacity = '1'; t.style.transform = 'translateX(-50%) translateY(0)'; });
+  clearTimeout(t._t);
+  t._t = setTimeout(() => { t.style.opacity = '0'; t.style.transform = 'translateX(-50%) translateY(10px)'; }, 3200);
+}
+
+/* ─── CLEAR ERRORS ON INPUT ─── */
+document.querySelectorAll('input, select, textarea').forEach(el => {
+  el.addEventListener('input', () => {
+    el.classList.remove('error');
+    const grp = el.closest('.form-group');
+    if (grp) grp.classList.remove('has-error');
+  });
+});
+</script>
+</body>
+</html>
