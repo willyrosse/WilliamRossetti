@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>William Rossetti — Trasforma la Tua Situazione Economica</title>
 <meta name="description" content="Non aspettare che qualcuno cambi la tua situazione. Fallo tu. Metodo concreto, risultati reali.">
-
+ 
 <meta property="og:type" content="website">
 <meta property="og:title" content="William Rossetti — Trasforma la Tua Situazione Economica">
 <meta property="og:description" content="Un metodo concreto per generare entrate reali online, senza esperienza, senza guru. Solo risultati misurabili.">
@@ -16,10 +16,10 @@
 <meta name="twitter:title" content="William Rossetti — Trasforma la Tua Situazione Economica">
 <meta name="twitter:description" content="Un metodo concreto per generare entrate reali online. Solo risultati misurabili.">
 <meta name="twitter:image" content="">
-
+ 
 <link rel="icon" type="image/png" href="">
 <link rel="apple-touch-icon" href="">
-
+ 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -51,7 +51,7 @@
     --shadow-premium: 0 24px 48px rgba(0, 0, 0, 0.4);
     --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   }
-
+ 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; font-size: 16px; }
   body {
@@ -62,7 +62,7 @@
     line-height: 1.7;
     overflow-x: hidden;
   }
-
+ 
   /* NAV */
   nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
@@ -82,7 +82,7 @@
   .nav-cta:hover { background: var(--gray-200); color: var(--white) !important; }
   .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
   .hamburger span { display: block; width: 24px; height: 1.5px; background: var(--white); transition: 0.3s; }
-
+ 
   /* HERO */
   #hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 140px 2rem 100px; position: relative; overflow: hidden; }
   .hero-bg { position: absolute; inset: 0; z-index: 0; background: radial-gradient(circle at 50% -20%, rgba(59, 130, 246, 0.08) 0%, transparent 60%); }
@@ -96,33 +96,16 @@
   .hero-sub strong { color: var(--white); font-weight: 500; }
   
   .hero-stats { display: flex; gap: 4rem; justify-content: center; flex-wrap: wrap; margin-top: 5rem; padding-top: 3rem; border-top: var(--border-subtle); animation: fadeUp 1s 0.3s cubic-bezier(0.16, 1, 0.3, 1) both; }
-  .hero-stat-num { 
-    font-family: var(--font-display); 
-    font-size: 2.5rem; 
-    font-weight: 700; 
-    color: var(--white); 
-    display: flex; 
-    align-items: center; /* Allinea verticalmente al centro il testo e l'immagine */
-    justify-content: center; 
-    gap: 12px; /* Aumentato leggermente il gap per dare respiro */
-    letter-spacing: -0.02em; 
-    line-height: 1; /* Forza l'altezza della riga per evitare offset */
-  }
-
-  .hero-stat-num img {
-    display: block;
-    height: 24px; /* Altezza ottimale per bilanciare il font size 2.5rem */
-    width: auto;
-    margin-top: 2px; /* Micro-aggiustamento manuale per l'ottica del logo Trustpilot */
-  }
+  .hero-stat { text-align: center; }
+  .hero-stat-num { font-family: var(--font-display); font-size: 2.5rem; font-weight: 700; color: var(--white); display: flex; align-items: center; justify-content: center; gap: 6px; letter-spacing: -0.02em; }
   .hero-stat-label { font-size: 0.8rem; color: var(--gray-500); letter-spacing: 0.05em; margin-top: 4px; font-weight: 500; }
-
+ 
   /* SECTION BASE */
   section { padding: 120px 2rem; }
   .container { max-width: 1100px; margin: 0 auto; }
   .section-eyebrow { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.2rem; }
   .section-title { font-family: var(--font-display); font-size: clamp(2.2rem, 4vw, 3.2rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1.5rem; color: var(--white); }
-
+ 
   /* CHI SONO */
   #chi-sono { border-top: var(--border-subtle); background: linear-gradient(180deg, var(--black) 0%, var(--gray-100) 100%); }
   .story-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 5rem; align-items: start; }
@@ -135,11 +118,11 @@
   .story-block-label { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em; color: var(--white); margin-bottom: 0.8rem; }
   .story-block-text { font-size: 1.1rem; color: var(--gray-500); line-height: 1.8; }
   .story-block-text strong { color: var(--white); font-weight: 500; }
-
+ 
   /* COSA FACCIO */
   #cosa-faccio { background: var(--gray-100); border-top: var(--border-subtle); border-bottom: var(--border-subtle); }
   .services-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 3rem; }
-
+ 
   /* Card con position:relative e overflow:hidden per watermark e glow */
   .service-card {
     background: var(--black);
@@ -150,7 +133,7 @@
     position: relative;
     overflow: hidden;
   }
-
+ 
   /* Ambient glow radiale al hover tramite ::before */
   .service-card::before {
     content: '';
@@ -168,7 +151,7 @@
     border-color: rgba(59, 130, 246, 0.2);
     box-shadow: 0 24px 48px rgba(0,0,0,0.4), 0 0 0 1px rgba(59,130,246,0.08);
   }
-
+ 
   /* Watermark numerico in background */
   .service-card::after {
     content: attr(data-num);
@@ -188,10 +171,10 @@
     transition: opacity 0.4s ease;
   }
   .service-card:hover::after { opacity: 0.11; }
-
+ 
   /* Tutti i figli diretti della card sopra lo z-index del glow */
   .service-card > * { position: relative; z-index: 1; }
-
+ 
   .service-icon {
     width: 48px; height: 48px;
     background: var(--accent-dim);
@@ -208,10 +191,10 @@
     box-shadow: 0 0 20px rgba(59, 130, 246, 0.15);
   }
   .service-icon svg { width: 22px; height: 22px; stroke: var(--accent); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-
+ 
   .service-title { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; margin-bottom: 1rem; }
   .service-text { font-size: 1rem; color: var(--gray-500); line-height: 1.7; }
-
+ 
   /* BENEFITS — layout a pillole */
   .benefits-list {
     list-style: none;
@@ -252,13 +235,13 @@
     flex-shrink: 0;
   }
   .benefit-check { display: none; } /* nasconde la vecchia spunta */
-
+ 
   /* RISULTATI - VERSIONE NITIDA (SENZA MOVIMENTO) */
 #risultati { 
   background: linear-gradient(180deg, var(--gray-100) 0%, var(--black) 100%);
   border-top: none; 
 }
-
+ 
 .results-header { 
   display: grid; 
   grid-template-columns: 1fr 1fr; 
@@ -266,13 +249,13 @@
   align-items: end; 
   margin-bottom: 3rem; 
 }
-
+ 
 .proof-cards { 
   display: grid; 
   grid-template-columns: repeat(2, 1fr); 
   gap: 2rem; 
 }
-
+ 
 /* Contenitore statico */
 .proof-card { 
   background: transparent; 
@@ -281,7 +264,7 @@
   /* Perspective non più necessaria senza rotazioni 3D, ma innocua se lasciata */
   /* perspective: 1500px; */ 
 }
-
+ 
 /* Parte superiore senza animazione float */
 .proof-card-top { 
   position: relative; 
@@ -290,7 +273,7 @@
   justify-content: center; 
   /* Animazione 'float' rimossa */
 }
-
+ 
 /* Ambient Glow dietro le immagini (invariato) */
 .proof-card-top::before {
   content: ''; 
@@ -306,9 +289,9 @@
   z-index: 0;
   transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
-
+ 
 /* ... lascia uguale la parte sopra (.results-header, .proof-cards, ecc) ... */
-
+ 
 .proof-card-top img { 
   width: 100%; 
   height: auto; 
@@ -316,7 +299,7 @@
   object-fit: contain; 
   position: relative; 
   z-index: 1;
-
+ 
   /* Rimosso backface-visibility, translateZ e will-change */
   /* Imposto uno stato iniziale più vicino alla realtà (0.95) */
   transform: scale(0.95); 
@@ -328,7 +311,7 @@
   /* Transizione solo su transform e filter per evitare ricalcoli inutili */
   transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s ease;
 }
-
+ 
 /* HOVER: Zoom leggero per non spaccare i pixel */
 .proof-card:hover .proof-card-top img { 
   transform: scale(1.02); /* Zoom ridotto al 2% (invece del 5%) per limitare la sgranatura */
@@ -339,12 +322,12 @@
   width: 70%; 
   height: 70%;
 }
-
+ 
 .proof-card-body { display: none; }
-
+ 
 /* Keyframe per il galleggiamento RIMOSSI */
 /* @keyframes float { ... } */
-
+ 
 /* Responsive: semplificato per mobile, rimosse rotazioni residue */
 @media (max-width: 900px) {
   .proof-cards { 
@@ -410,21 +393,22 @@
   .testi-stars { color: var(--accent); font-size: 1rem; margin-bottom: 1.2rem; letter-spacing: 3px; }
   .testi-text { font-size: 1.05rem; color: var(--gray-600); line-height: 1.8; flex: 1; margin-bottom: 2rem; font-weight: 400; }
   .testi-author { display: flex; align-items: center; gap: 14px; border-top: var(--border-subtle); padding-top: 1.5rem; }
-  .testi-avatar { width: 44px; height: 44px; border-radius: 50%; background: var(--gray-200); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-weight: 700; font-size: 0.9rem; color: var(--white); }
+  .testi-avatar { width: 44px; height: 44px; border-radius: 50%; background: var(--gray-200); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-weight: 700; font-size: 0.9rem; color: var(--white); overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); }
+  .testi-avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .testi-name { font-weight: 600; font-size: 0.95rem; color: var(--white); }
   .testi-role { font-size: 0.8rem; color: var(--gray-500); }
-
+ 
   /* Indizio swipe — nascosto su Desktop, visibile solo su Mobile via media query */
   .swipe-hint {
     display: none;
   }
-
+ 
   /* Animazione di scorrimento infinito */
   @keyframes scroll { 
     0% { transform: translateX(0); } 
     100% { transform: translateX(calc(-50% - 1rem)); } /* -50% meno metà del gap */
   }
-
+ 
   /* CONTATTI & FORM */
   #contatti { background: linear-gradient(180deg, var(--gray-100) 0%, var(--black) 100%);
     border-top: none;
@@ -435,7 +419,7 @@
   .contact-warnings { list-style: none; display: flex; flex-direction: column; gap: 1rem; }
   .contact-warning-item { display: flex; align-items: flex-start; gap: 12px; font-size: 0.95rem; color: var(--gray-400); }
   .contact-warning-item::before { content: '→'; color: var(--gray-600); flex-shrink: 0; }
-
+ 
   /* FORM UI PREMIUM */
   .form-card { background: var(--gray-100); border: var(--border-glow); border-radius: 24px; padding: 3rem; box-shadow: var(--shadow-premium); }
   .form-step { display: none; animation: fadeIn 0.4s ease; }
@@ -448,11 +432,11 @@
   
   .step-label { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; }
   .step-title { font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; margin-bottom: 2rem; color: var(--white); }
-
+ 
   .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
   .form-group { margin-bottom: 1.5rem; display: flex; flex-direction: column; }
   .form-group > .field-label { font-size: 0.85rem; font-weight: 500; color: var(--gray-600); margin-bottom: 0.6rem; }
-
+ 
   .form-group input, .form-group select, .form-group textarea {
     background: var(--black); border: 1px solid var(--gray-300); border-radius: 8px;
     color: var(--white); font-family: var(--font-body); font-size: 1rem;
@@ -472,19 +456,19 @@
   }
   .radio-option:hover, .checkbox-option:hover { border-color: var(--gray-400); color: var(--white); }
   .radio-option.selected, .checkbox-option.selected { border-color: var(--accent); background: var(--accent-dim); color: var(--white); }
-
+ 
   .radio-dot { width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--gray-400); display: flex; align-items: center; justify-content: center; transition: 0.2s; }
   .radio-option.selected .radio-dot { border-color: var(--accent); }
   .radio-option.selected .radio-dot::after { content: ''; display: block; width: 8px; height: 8px; background: var(--accent); border-radius: 50%; }
-
+ 
   .check-box { width: 18px; height: 18px; border-radius: 4px; border: 2px solid var(--gray-400); display: flex; align-items: center; justify-content: center; transition: 0.2s; font-size: 0.8rem; font-weight: bold; }
   .checkbox-option.selected .check-box { background: var(--accent); border-color: var(--accent); color: var(--white); }
-
+ 
   /* Privacy */
   .privacy-row { display: flex; align-items: flex-start; gap: 12px; padding: 1.2rem; background: var(--black); border: 1px solid var(--gray-300); border-radius: 8px; cursor: pointer; margin-bottom: 1rem; transition: var(--transition-smooth); }
   .privacy-row.selected { border-color: var(--accent); }
   .privacy-text { font-size: 0.85rem; color: var(--gray-500); line-height: 1.6; }
-
+ 
   /* Scale Buttons */
   .scale-group { display: flex; gap: 0.8rem; }
   .scale-btn { flex: 1; padding: 1rem; background: var(--black); border: 1px solid var(--gray-300); border-radius: 8px; cursor: pointer; text-align: center; transition: var(--transition-smooth); display: flex; flex-direction: column; align-items: center; gap: 6px; }
@@ -492,14 +476,14 @@
   .scale-btn:hover { border-color: var(--gray-400); }
   .scale-btn.selected { border-color: var(--accent); background: var(--accent-dim); }
   .scale-btn.selected .scale-num { color: var(--white); }
-
+ 
   /* Bottoni Form */
   .form-nav { display: flex; gap: 1rem; margin-top: 2rem; }
   .btn-next { flex: 1; background: var(--white); color: var(--black); border: none; border-radius: 8px; padding: 1.1rem; font-family: var(--font-body); font-size: 1rem; font-weight: 600; cursor: pointer; transition: var(--transition-smooth); }
   .btn-next:hover { background: var(--gray-200); color: var(--white); transform: translateY(-2px); }
   .btn-prev { background: transparent; color: var(--gray-500); border: 1px solid var(--gray-300); border-radius: 8px; padding: 1.1rem 1.5rem; font-weight: 500; cursor: pointer; transition: var(--transition-smooth); }
   .btn-prev:hover { color: var(--white); border-color: var(--gray-500); }
-
+ 
 /* --- MESSAGGIO DI SUCCESSO --- */
   .form-success { 
     display: none; /* Questa è la regola magica che lo nasconde all'inizio */
@@ -546,15 +530,15 @@
     margin: 1.8rem auto; 
     width: 60%;
   }
-
+ 
   /* ANIMATIONS / UTILS */
   @keyframes fadeUp { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
   .reveal { opacity: 0; transform: translateY(40px); transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
   .reveal.visible { opacity: 1; transform: translateY(0); }
-
+ 
   /* FOOTER */
   footer { border-top: var(--border-subtle); padding: 3rem 2rem; text-align: center; font-size: 0.85rem; color: var(--gray-500); background: var(--black); }
-
+ 
   /* MOBILE RESPONSIVE */
   @media (max-width: 900px) {
     .story-grid, .contact-layout, .results-header { grid-template-columns: 1fr; gap: 3rem; }
@@ -571,12 +555,12 @@
       line-height: 1.6;
       margin-bottom: 1.5rem;
     } /* ← parentesi graffa di chiusura mancante, ora corretta */
-
+ 
     /* Nasconde i duplicati marquee su mobile */
     .hide-on-mobile {
       display: none !important;
     }
-
+ 
     /* Indizio swipe — visibile solo su mobile */
     .swipe-hint {
       display: flex;
@@ -599,7 +583,7 @@
     .swipe-hint-text {
       color: var(--gray-500);
     }
-
+ 
     .marquee-wrapper {
       overflow-x: auto; /* Abilita lo scorrimento orizzontale con il dito */
       overflow-y: hidden;
@@ -610,14 +594,14 @@
       /* Padding laterale asimmetrico: crea l'effetto "peek" della card successiva */
       padding: 0 10% 1rem 5%;
     }
-
+ 
     .marquee-track {
       animation: none !important; /* Blocca l'animazione automatica */
       transform: translateX(0) !important; /* Resetta la posizione */
       padding: 0; /* Il padding ora è sul wrapper per l'effetto peek */
       gap: 1rem; /* Gap ridotto su mobile */
     }
-
+ 
     /* Effetto peek: la card occupa ~82vw, lasciando ~18vw visibile della successiva */
     .testi-card {
       width: 82vw;
@@ -636,7 +620,7 @@
 </style>
 </head>
 <body>
-
+ 
 <nav>
   <a href="#hero" class="nav-logo">W<span>.</span>R</a>
   <ul class="nav-links">
@@ -650,7 +634,7 @@
     <span></span><span></span><span></span>
   </div>
 </nav>
-
+ 
 <section id="hero">
   <div class="hero-bg"></div>
   <div class="hero-grid"></div>
@@ -677,35 +661,35 @@
     </div>
   </div>
 </section>
-
+ 
 <section id="chi-sono">
   <div class="container">
     <div class="story-grid">
       <div class="story-left reveal">
         <div class="story-portrait">
           <img src="immagineWilli.jpg" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0; object-position: top;">
-          <div class="story-tag">William Rossetti · Trader e Marketer</div>
+          <div class="story-tag">William Rossetti · Imprenditore digitale</div>
         </div>
       </div>
       <div class="story-right">
         <div class="section-eyebrow reveal">Chi sono</div>
         <h2 class="section-title reveal">Non ci sono scorciatoie. <br> C'è un percorso.</h2>
-
+ 
         <div class="story-block reveal">
           <div class="story-block-label">IL PROBLEMA</div>
           <p class="story-block-text">A 19 anni avevo un lavoro fisso, <strong>1.400€ al mese</strong>, e la sensazione netta che la mia vita fosse <strong>già decisa da qualcun altro.</strong> Niente risparmi. Niente margine. Niente libertà.</p>
         </div>
-
+ 
         <div class="story-block reveal">
           <div class="story-block-label">LA SVOLTA</div>
           <p class="story-block-text">Ho passato 14 mesi a testare ogni metodo online possibile. La maggior parte erano fumo. Tra tutti quelli analizzati, <strong>uno solo si è rivelato realmente replicabile e scalabile</strong> e ho capito perché. Non per fortuna. Per struttura.</p>
         </div>
-
+ 
         <div class="story-block reveal">
           <div class="story-block-label">IL RISULTATO</div>
           <p class="story-block-text">Oggi lavoro da dove voglio, perchè ho un sistema che genera entrate anche mentre dormo e negli ultimi 7 anni la mia azienda ha aiutato <strong>decine di migliaia di persone</strong> a replicare lo stesso processo — adattato alla loro situazione.</p>
         </div>
-
+ 
         <div class="story-block reveal">
           <div class="story-block-label">PERCHÈ FUNZIONA</div>
           <p class="story-block-text">Funziona perché lavoriamo in due buchi di mercato enormi ed estremamente in espansione: il settore dell'<strong>educazione finanziaria</strong> e il settore dell'<strong>intelligenza artificiale.</strong></p>
@@ -714,12 +698,12 @@
     </div>
   </div>
 </section>
-
+ 
 <section id="cosa-faccio">
   <div class="container">
     <div class="section-eyebrow reveal">Cosa faccio</div>
     <h2 class="section-title reveal" style="max-width:600px;">Un sistema. Due pilastri. Zero improvvisazione.</h2>
-
+ 
     <div class="services-grid reveal">
       <div class="service-card" data-num="01">
         <div class="service-icon">
@@ -738,7 +722,7 @@
         <p class="service-text">Non un corso da guardare da soli: verrai affiancato da una community di persone competenti e che hanno già raggiunto i risultati che desideri.</p>
       </div>
     </div>
-
+ 
     <ul class="benefits-list reveal" style="justify-content: center;">
       <li class="benefit-item">Compatibile con Lavoro o Università</li>
       <li class="benefit-item">Risultati misurabili nei primi 30–60 giorni</li>
@@ -746,7 +730,7 @@
     </ul>
   </div>
 </section>
-
+ 
 <section id="risultati">
   <div class="container">
     <div class="results-header">
@@ -769,7 +753,7 @@
           <div class="proof-card-sub">Entrate extra documentate · Applicazione su Smartphone</div>
         </div>
       </div>
-
+ 
       <div class="proof-card reveal">
         <div class="proof-card-top">
           <img src="Zaffiro.png" alt="Dashboard di crescita">
@@ -783,12 +767,12 @@
     
   </div>
 </section>	
-
+ 
 <section id="testimonianze">
   <div class="container" style="max-width: 100%; padding: 0 2rem;">
     <div class="section-eyebrow reveal" style="text-align: center;">Testimonianze</div>
     <h2 class="section-title reveal" style="text-align: center;">Cosa dicono i membri del Team</h2>
-
+ 
     <!-- Indizio visivo swipe — visibile solo su mobile via CSS -->
     <div class="swipe-hint">
       <span class="swipe-hint-icon">
@@ -803,22 +787,21 @@
         </svg>
       </span>
     </div>
-
+ 
     <div class="marquee-wrapper reveal">
       <div class="marquee-track">
         
         <div class="testi-card">
-          <div class="testi-avatar">AC</div>
+          <div class="testi-avatar"><img src="foto-colella.jpg" alt="Alessandro Colella"></div>
           <div>
             <div class="testi-name">Alessandro Colella</div>
             <div class="testi-role">19 anni · Studente di fisica</div>
-            <div class="testi-stars">★★★★★</div>
             <p class="testi-text">"Azienda top 1 sul mercato in questo mondo, mai trovato un’ecosistema fatto così bene, con formazione aggiornata da professionisti e strumenti validissimi per guadagnare con poco tempo e con il pc, nel mentre che si studia un topic così importante quale è l’educazione finanziaria."</p>
           </div>
         </div>
-
+ 
         <div class="testi-card">
-          <div class="testi-avatar">GM</div>
+          <div class="testi-avatar"><img src="foto-montemagno.jpg" alt="Gabriele Montemagno"></div>
           <div>
             <div class="testi-name">Gabriele Montemagno</div>
             <div class="testi-role">21 anni · Studente di Economia</div>
@@ -826,9 +809,9 @@
             <p class="testi-text">"Ho iniziato ormai un anno fa e devo dire che mi rendo conto che ho fatto tanti step avanti, percorso ad oggi che mi ha dato tanto, day by day seguito e supportato."</p>
           </div>
         </div>
-
+ 
         <div class="testi-card">
-          <div class="testi-avatar">MB</div>
+          <div class="testi-avatar"><img src="foto-bulatovic.jpg" alt="Mayan Bulatovic"></div>
           <div>
             <div class="testi-name">Mayan Bulatovic</div>
             <div class="testi-role">19 anni · Studente di informatica</div>
@@ -836,9 +819,9 @@
             <p class="testi-text">"Ho iniziato quest’attività da qualche mese e non tornerei mai indietro: è stata davvero una delle migliori scelte che abbia mai fatto in quanto mi ha permesso di avere una visione più chiara su ciò che voglio fare. Sopratutto mi sono trovato super affiancato dalla community"</p>
           </div>
         </div>
-
+ 
         <div class="testi-card">
-          <div class="testi-avatar">GD</div>
+          <div class="testi-avatar"><img src="foto-decarli.jpg" alt="Giorgio De Carli"></div>
           <div>
             <div class="testi-name">Giorgio De Carli</div>
             <div class="testi-role">21 anni · Ex animatore</div>
@@ -846,10 +829,10 @@
             <p class="testi-text">"Ho trovato in questo gruppo quel 'diverso', quel salto di qualità che cercavo da tempo, mi sono reso conto di come con strumenti come questi potevo esprimere al meglio il mio potenziale."</p>
           </div>
         </div>
-
+ 
         <!-- DUPLICATI per loop marquee su Desktop — nascosti su Mobile con .hide-on-mobile -->
         <div class="testi-card hide-on-mobile">
-          <div class="testi-avatar">AC</div>
+          <div class="testi-avatar"><img src="foto-colella.jpg" alt="Alessandro Colella"></div>
           <div>
             <div class="testi-name">Alessandro Colella</div>
             <div class="testi-role">19 anni · Studente di fisica</div>
@@ -857,9 +840,9 @@
             <p class="testi-text">"Azienda top 1 sul mercato in questo mondo, mai trovato un’ecosistema fatto così bene, con formazione aggiornata da professionisti e strumenti validissimi per guadagnare con poco tempo e con il pc, nel mentre che si studia un topic così importante quale è l’educazione finanziaria."</p>
           </div>
         </div>
-
+ 
         <div class="testi-card hide-on-mobile">
-          <div class="testi-avatar">GM</div>
+          <div class="testi-avatar"><img src="foto-montemagno.jpg" alt="Gabriele Montemagno"></div>
           <div>
             <div class="testi-name">Gabriele Montemagno</div>
             <div class="testi-role">21 anni · Studente di Economia</div>
@@ -867,9 +850,9 @@
             <p class="testi-text">"Ho iniziato ormai un anno fa e devo dire che mi rendo conto che ho fatto tanti step avanti, percorso ad oggi che mi ha dato tanto, day by day seguito e supportato."</p>
           </div>
         </div>
-
+ 
         <div class="testi-card hide-on-mobile">
-          <div class="testi-avatar">MB</div>
+          <div class="testi-avatar"><img src="foto-bulatovic.jpg" alt="Mayan Bulatovic"></div>
           <div>
             <div class="testi-name">Mayan Bulatovic</div>
             <div class="testi-role">19 anni · Studente di informatica</div>
@@ -877,9 +860,9 @@
             <p class="testi-text">"Ho iniziato quest’attività da qualche mese e non tornerei mai indietro: è stata davvero una delle migliori scelte che abbia mai fatto in quanto mi ha permesso di avere una visione più chiara su ciò che voglio fare. Sopratutto mi sono trovato super affiancato dalla community"</p>
           </div>
         </div>
-
+ 
         <div class="testi-card hide-on-mobile">
-          <div class="testi-avatar">GD</div>
+          <div class="testi-avatar"><img src="foto-decarli.jpg" alt="Giorgio De Carli"></div>
           <div>
             <div class="testi-name">Giorgio De Carli</div>
             <div class="testi-role">21 anni · Ex animatore</div>
@@ -887,12 +870,12 @@
             <p class="testi-text">"Ho trovato in questo gruppo quel 'diverso', quel salto di qualità che cercavo da tempo, mi sono reso conto di come con strumenti come questi potevo esprimere al meglio il mio potenziale."</p>
           </div>
         </div>
-
+ 
       </div>
     </div>
   </div>
 </section>
-
+ 
 <section id="contatti">
   <div class="container">
     <div class="contact-layout">
@@ -906,7 +889,7 @@
           <li class="contact-warning-item">È per chi è stanco di aspettare e vuole cambiare davvero</li>
         </ul>
       </div>
-
+ 
       <div>
         <div class="form-card reveal">
           <div class="form-progress" id="formProgress">
@@ -915,11 +898,11 @@
             <div class="progress-bar" id="p3"></div>
             <div class="progress-bar" id="p4"></div>
           </div>
-
+ 
           <div class="form-step active" id="step1">
             <div class="step-label">Passo 1 di 4 · Dati personali</div>
             <div class="step-title">Chi sei?</div>
-
+ 
             <div class="form-row">
               <div class="form-group" id="grp-nome">
                 <span class="field-label">Nome *</span>
@@ -932,7 +915,7 @@
                 <span class="error-msg">Campo obbligatorio</span>
               </div>
             </div>
-
+ 
             <div class="form-group" id="grp-eta">
               <span class="field-label">Età *</span>
               <select id="eta">
@@ -945,16 +928,16 @@
               </select>
               <span class="error-msg">Campo obbligatorio</span>
             </div>
-
+ 
             <div class="form-nav">
               <button class="btn-next" onclick="nextStep(1)">Continua →</button>
             </div>
           </div>
-
+ 
           <div class="form-step" id="step2">
             <div class="step-label">Passo 2 di 4 · La tua situazione</div>
             <div class="step-title">Dimmi dove sei ora.</div>
-
+ 
             <div class="form-group">
               <span class="field-label">Cosa stai cercando in questo momento? *</span>
               <div class="checkbox-group" id="cercando">
@@ -972,7 +955,7 @@
                 </div>
               </div>
             </div>
-
+ 
             <div class="form-group">
               <span class="field-label">Qual è la tua situazione attuale? *</span>
               <div class="radio-group" id="situazione">
@@ -990,17 +973,17 @@
                 </div>
               </div>
             </div>
-
+ 
             <div class="form-nav">
               <button class="btn-prev" onclick="prevStep(2)">←</button>
               <button class="btn-next" onclick="nextStep(2)">Continua →</button>
             </div>
           </div>
-
+ 
           <div class="form-step" id="step3">
             <div class="step-label">Passo 3 di 4 · Mentalità e investimento</div>
             <div class="step-title">Sii onesto. È fondamentale.</div>
-
+ 
             <div class="form-group">
               <span class="field-label">Hai già provato qualcosa di simile?</span>
               <div class="radio-group" id="provato">
@@ -1015,7 +998,7 @@
                 </div>
               </div>
             </div>
-
+ 
             <div class="form-group">
               <span class="field-label">Quanto sei disposto a investire su te stesso? *</span>
               <div class="radio-group" id="investimento">
@@ -1033,7 +1016,7 @@
                 </div>
               </div>
             </div>
-
+ 
             <div class="form-group">
               <span class="field-label">Quanto sei serio nel voler cambiare la tua situazione? *</span>
               <div class="scale-group" id="serioScore">
@@ -1054,29 +1037,29 @@
                 </div>
               </div>
             </div>
-
+ 
             <div class="form-nav">
               <button class="btn-prev" onclick="prevStep(3)">←</button>
               <button class="btn-next" onclick="nextStep(3)">Continua →</button>
             </div>
           </div>
-
+ 
           <div class="form-step" id="step4">
             <div class="step-label">Passo 4 di 4 · Motivazione</div>
             <div class="step-title">Perchè dovrei scegliere proprio te?</div>
-
+ 
             <div class="form-group" id="grp-perche">
               <span class="field-label">Convincimi</span>
               <textarea id="perche" placeholder="Che cosa hai di diverso rispetto agli altri?&#10;Descriviti con tre aggettivi che ti rappresentino davvero." style="min-height:130px;"></textarea>
               <span class="error-msg">Scrivi almeno 30 caratteri — non lasciare questo campo vuoto</span>
             </div>
-
+ 
             <div class="form-group" id="grp-whatsapp">
               <span class="field-label">A che numero posso contattarti per farti sapere se sei stato selezionato? *</span>
               <input type="tel" id="whatsapp" placeholder="+39 333 000 0000" autocomplete="tel">
               <span class="error-msg">Inserisci un numero valido (min 8 cifre)</span>
             </div>
-
+ 
             <div class="privacy-row" id="privacyRow" onclick="togglePrivacy()">
               <span class="check-box" id="privacyBox"></span>
               <span class="privacy-text">
@@ -1084,13 +1067,13 @@
               </span>
             </div>
             <div class="privacy-error" id="privacyError">Devi accettare la Privacy Policy per procedere</div>
-
+ 
             <div class="form-nav">
               <button class="btn-prev" onclick="prevStep(4)">←</button>
               <button class="btn-next" onclick="submitForm()" id="submitBtn">Invia candidatura →</button>
             </div>
           </div>
-
+ 
           <div class="form-success" id="formSuccess">
             <div class="success-icon">✓</div>
             <div class="success-title">Richiesta ricevuta.</div>
@@ -1103,17 +1086,17 @@
               <br><br><strong>A presto.</strong>
             </p>
           </div>
-
+ 
         </div>
       </div>
     </div>
   </div>
 </section>
-
+ 
 <footer>
   <p>© 2025 William Rossetti · Tutti i diritti riservati · <a href="privacy.html" style="color:var(--gray-500);">Privacy Policy</a></p>
 </footer>
-
+ 
 <script>
 /* ─── MOBILE MENU ─── */
 function toggleMobileMenu() {
@@ -1126,7 +1109,7 @@ function toggleMobileMenu() {
     links._open = false;
   }
 }
-
+ 
 /* ─── SCROLL REVEAL ─── */
 const revealEls = document.querySelectorAll('.reveal');
 const revealObserver = new IntersectionObserver(entries => {
@@ -1135,7 +1118,7 @@ const revealObserver = new IntersectionObserver(entries => {
   });
 }, { threshold: 0.1 });
 revealEls.forEach(el => revealObserver.observe(el));
-
+ 
 /* ══════════════════════════════════════════════════════════
    FORM — BUG FIX COMPLETO
    Radio e checkbox sono <div> con onclick diretto sul div.
@@ -1145,13 +1128,13 @@ revealEls.forEach(el => revealObserver.observe(el));
 let currentStep = 1;
 const formData = {};
 let privacyAccepted = false;
-
+ 
 function updateProgress(step) {
   for (let i = 1; i <= 4; i++) {
     document.getElementById('p' + i).classList.toggle('done', i <= step);
   }
 }
-
+ 
 function showStep(step) {
   document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
   const el = document.getElementById('step' + step);
@@ -1159,37 +1142,37 @@ function showStep(step) {
   updateProgress(step);
   currentStep = step;
 }
-
+ 
 function nextStep(from) {
   if (!validateStep(from)) return;
   collectStepData(from);
   showStep(from + 1);
   document.querySelector('.form-card').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
-
+ 
 function prevStep(from) {
   showStep(from - 1);
 }
-
+ 
 /* Checkbox: toggling singolo elemento — nessun bubbling, nessun conflitto */
 function toggleCheck(el) {
   el.classList.toggle('selected');
   const box = el.querySelector('.check-box');
   if (box) box.textContent = el.classList.contains('selected') ? '✓' : '';
 }
-
+ 
 /* Radio: deseleziona tutti nel gruppo, seleziona il cliccato */
 function selectRadio(el, groupId) {
   document.querySelectorAll('#' + groupId + ' .radio-option').forEach(o => o.classList.remove('selected'));
   el.classList.add('selected');
 }
-
+ 
 /* Scale: deseleziona tutti, seleziona il cliccato */
 function selectScale(el, groupId) {
   document.querySelectorAll('#' + groupId + ' .scale-btn').forEach(b => b.classList.remove('selected'));
   el.classList.add('selected');
 }
-
+ 
 /* Privacy toggle */
 function togglePrivacy() {
   privacyAccepted = !privacyAccepted;
@@ -1197,17 +1180,17 @@ function togglePrivacy() {
   document.getElementById('privacyBox').textContent = privacyAccepted ? '✓' : '';
   if (privacyAccepted) document.getElementById('privacyError').style.display = 'none';
 }
-
+ 
 /* ─── VALIDATION ─── */
 function validateStep(step) {
   let valid = true;
-
+ 
   if (step === 1) {
     valid = checkRequired('nome', 'grp-nome') & valid;
     valid = checkRequired('cognome', 'grp-cognome') & valid;
     valid = checkSelect('eta', 'grp-eta') & valid;
   }
-
+ 
   if (step === 2) {
     if (!document.querySelector('#cercando .checkbox-option.selected')) {
       showToast('Seleziona almeno una risposta per "Cosa stai cercando"'); valid = false;
@@ -1216,7 +1199,7 @@ function validateStep(step) {
       showToast('Seleziona la tua situazione attuale'); valid = false;
     }
   }
-
+ 
   if (step === 3) {
     if (!document.querySelector('#investimento .radio-option.selected')) {
       showToast('Indica quanto sei disposto a investire'); valid = false;
@@ -1225,7 +1208,7 @@ function validateStep(step) {
       showToast('Indica il tuo livello di serietà (da 1 a 5)'); valid = false;
     }
   }
-
+ 
   if (step === 4) {
     const txt = document.getElementById('perche').value.trim();
     const grp = document.getElementById('grp-perche');
@@ -1243,10 +1226,10 @@ function validateStep(step) {
       valid = false;
     }
   }
-
+ 
   return !!valid;
 }
-
+ 
 function checkRequired(id, grpId) {
   const el = document.getElementById(id);
   const grp = document.getElementById(grpId);
@@ -1255,7 +1238,7 @@ function checkRequired(id, grpId) {
   el.classList.toggle('error', !ok);
   return ok;
 }
-
+ 
 function checkPhone() {
   const el = document.getElementById('whatsapp');
   const grp = document.getElementById('grp-whatsapp');
@@ -1265,7 +1248,7 @@ function checkPhone() {
   el.classList.toggle('error', !ok);
   return ok;
 }
-
+ 
 function checkSelect(id, grpId) {
   const el = document.getElementById(id);
   const grp = document.getElementById(grpId);
@@ -1274,7 +1257,7 @@ function checkSelect(id, grpId) {
   el.classList.toggle('error', !ok);
   return ok;
 }
-
+ 
 /* ─── COLLECT DATA ─── */
 function collectStepData(step) {
   if (step === 1) {
@@ -1301,16 +1284,16 @@ function collectStepData(step) {
     formData.privacyAccepted = true;
   }
 }
-
+ 
 /* ─── SUBMIT ─── */
 function submitForm() {
   if (!validateStep(4)) return;
   collectStepData(4);
-
+ 
   const btn = document.getElementById('submitBtn');
   btn.textContent = 'Invio in corso...';
   btn.disabled = true;
-
+ 
   /*
     INTEGRAZIONE GOOGLE SHEETS:
     1. Crea un Google Apps Script con doPost(e) che salva i dati nel foglio
@@ -1319,7 +1302,7 @@ function submitForm() {
   */
   const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxJePsNaRoOnuR4UtC-RP_y6aOV_lC0T531Wx70g-2N2eo8JUqc6ZDYHO37JczvLKrL/exec';
   const payload = { ...formData, timestamp: new Date().toISOString(), source: window.location.href };
-
+ 
   (async () => {
     try {
       await fetch(SCRIPT_URL, {
@@ -1337,7 +1320,7 @@ function submitForm() {
     document.getElementById('formSuccess').style.display = 'block';
   })();
 }
-
+ 
 /* ─── TOAST (sostituisce alert, non blocca il thread) ─── */
 function showToast(msg) {
   let t = document.getElementById('_toast');
@@ -1352,7 +1335,7 @@ function showToast(msg) {
   clearTimeout(t._t);
   t._t = setTimeout(() => { t.style.opacity = '0'; t.style.transform = 'translateX(-50%) translateY(10px)'; }, 3200);
 }
-
+ 
 /* ─── CLEAR ERRORS ON INPUT ─── */
 document.querySelectorAll('input, select, textarea').forEach(el => {
   el.addEventListener('input', () => {
